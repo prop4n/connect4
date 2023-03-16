@@ -53,7 +53,7 @@ namespace connect4
             private readonly SolidBrush yellowTeam = new SolidBrush(Color.Yellow);
             private readonly SolidBrush redTeam = new SolidBrush(Color.Red);
             private readonly int cellSize = 60;
-            private readonly Pen pen = new Pen(Color.Black, 1);
+            private Pen pen = new Pen(Color.Black, 1);
 
             public int CellSize
             {
@@ -86,13 +86,19 @@ namespace connect4
 
                         graphics.DrawEllipse(pen, xPos - radius, yPos - radius, cellSize, cellSize);
 
+                        int blackRadius = (int)(cellSize * 0.7);
+                        int blackXPos = xPos - blackRadius / 2;
+                        int blackYPos = yPos - blackRadius / 2;
+
                         if (board[y, x] == 'r')
                         {
                             graphics.FillEllipse(redTeam, xPos - radius, yPos - radius, cellSize, cellSize);
+                            graphics.DrawEllipse(pen, blackXPos, blackYPos, blackRadius, blackRadius);
                         }
                         else if (board[y, x] == 'y')
                         {
                             graphics.FillEllipse(yellowTeam, xPos - radius, yPos - radius, cellSize, cellSize);
+                            graphics.DrawEllipse(pen, blackXPos, blackYPos, blackRadius, blackRadius);
                         }
                     }
                 }
