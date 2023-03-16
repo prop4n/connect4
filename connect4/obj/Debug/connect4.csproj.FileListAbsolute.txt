@@ -1,0 +1,11 @@
+C:\Users\propan\source\repos\TD1\connect4\connect4\bin\Debug\connect4.exe.config
+C:\Users\propan\source\repos\TD1\connect4\connect4\bin\Debug\connect4.exe
+C:\Users\propan\source\repos\TD1\connect4\connect4\bin\Debug\connect4.pdb
+C:\Users\propan\source\repos\TD1\connect4\connect4\obj\Debug\connect4.csproj.AssemblyReference.cache
+C:\Users\propan\source\repos\TD1\connect4\connect4\obj\Debug\connect4.csproj.SuggestedBindingRedirects.cache
+C:\Users\propan\source\repos\TD1\connect4\connect4\obj\Debug\connect4.Form1.resources
+C:\Users\propan\source\repos\TD1\connect4\connect4\obj\Debug\connect4.Properties.Resources.resources
+C:\Users\propan\source\repos\TD1\connect4\connect4\obj\Debug\connect4.csproj.GenerateResource.cache
+C:\Users\propan\source\repos\TD1\connect4\connect4\obj\Debug\connect4.csproj.CoreCompileInputs.cache
+C:\Users\propan\source\repos\TD1\connect4\connect4\obj\Debug\connect4.exe
+C:\Users\propan\source\repos\TD1\connect4\connect4\obj\Debug\connect4.pdb
